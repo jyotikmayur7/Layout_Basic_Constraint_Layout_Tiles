@@ -9,10 +9,10 @@
     <Button
         android:id="@+id/one"
         android:layout_width="0dp"
-        android:layout_height="80dp"
+        android:layout_height="90dp"
         android:background="@color/purple_700"
         android:text="1"
-        android:textSize="25dp"
+        android:textSize="25sp"
         android:textColor="@color/white"
         android:layout_margin="1dp"
         app:layout_constraintEnd_toStartOf="@+id/two"
@@ -27,7 +27,7 @@
         android:background="@color/purple_500"
         android:text="2"
         android:textColor="@color/white"
-        android:textSize="25dp"
+        android:textSize="25sp"
         app:layout_constraintBottom_toTopOf="@+id/seven"
         app:layout_constraintEnd_toStartOf="@+id/three"
         app:layout_constraintTop_toTopOf="parent" />
@@ -35,10 +35,10 @@
     <Button
         android:id="@+id/three"
         android:layout_width="80dp"
-        android:layout_height="70dp"
+        android:layout_height="90dp"
         android:background="@color/teal_700"
         android:text="3"
-        android:textSize="25dp"
+        android:textSize="25sp"
         android:layout_margin="1dp"
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
@@ -52,7 +52,7 @@
         android:background="@color/dark_red"
         android:text="4"
         android:textColor="@color/white"
-        android:textSize="25dp"
+        android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/three" />
@@ -60,12 +60,12 @@
     <Button
         android:id="@+id/five"
         android:layout_width="150dp"
-        android:layout_height="190dp"
+        android:layout_height="0dp"
         android:layout_margin="1dp"
         android:background="@color/light_red"
         android:text="5"
         android:textColor="@color/white"
-        android:textSize="25dp"
+        android:textSize="25sp"
         app:layout_constraintBottom_toTopOf="@+id/eight"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/one" />
@@ -78,7 +78,7 @@
         android:text="6"
         android:layout_margin="1dp"
         android:textColor="@color/white"
-        android:textSize="25dp"
+        android:textSize="25sp"
         app:layout_constraintStart_toEndOf="@+id/five"
         app:layout_constraintTop_toBottomOf="@+id/one" />
 
@@ -89,7 +89,7 @@
         android:background="@color/green"
         android:text="7"
         android:textColor="@color/white"
-        android:textSize="25dp"
+        android:textSize="25sp"
         android:layout_margin="1dp"
         app:layout_constraintEnd_toStartOf="@+id/four"
         app:layout_constraintStart_toEndOf="@+id/five"
@@ -98,12 +98,12 @@
     <Button
         android:id="@+id/eight"
         android:layout_width="0dp"
-        android:layout_height="60dp"
+        android:layout_height="90dp"
         android:layout_margin="1dp"
         android:background="@color/orange"
         android:text="8"
         android:textColor="@color/white"
-        android:textSize="25dp"
+        android:textSize="25sp"
         app:layout_constraintEnd_toStartOf="@+id/nine"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/nine" />
@@ -111,13 +111,26 @@
     <Button
         android:id="@+id/nine"
         android:layout_width="100dp"
-        android:layout_height="61dp"
+        android:layout_height="90dp"
         android:background="@color/grey"
         android:text="9"
         android:textColor="@color/white"
-        android:textSize="25dp"
+        android:textSize="25sp"
         android:layout_margin="1dp"
         app:layout_constraintEnd_toStartOf="@+id/four"
         app:layout_constraintTop_toBottomOf="@+id/seven" />
+
+    <Button
+        android:id="@+id/alphabets"
+        android:layout_width="0dp"
+        android:layout_height="90dp"
+        android:text="Alphabets"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:background="@color/dark_green"
+        android:layout_margin="1dp"
+        app:layout_constraintEnd_toStartOf="@+id/four"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eight" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
