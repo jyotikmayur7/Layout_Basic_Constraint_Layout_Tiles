@@ -10,5 +10,7 @@
     <color name="dark_red">#b92009</color>
     <color name="light_red">#f86d66</color>
     <color name="dark_yellow">#e1951e</color>
+    <color name="orange">#ec6913</color>
     <color name="green">#16c738</color>
+    <color name="grey">#768789</color>
 </resources>
